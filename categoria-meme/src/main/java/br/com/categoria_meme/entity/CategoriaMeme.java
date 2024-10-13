@@ -1,11 +1,13 @@
 package br.com.categoria_meme.entity;
 
+
+import br.com.user_service.entity.Usuario;
 import jakarta.persistence.*;
 
 import java.sql.Date;
 
 @Entity
-public class CategoriaDeMeme {
+public class CategoriaMeme {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "id", nullable = false)

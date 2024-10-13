@@ -1,5 +1,7 @@
 package br.com.meme_service.entity;
 
+import br.com.categoria_meme.entity.CategoriaMeme;
+import br.com.user_service.entity.Usuario;
 import jakarta.persistence.*;
 
 import java.sql.Date;
